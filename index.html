@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>Image Gallery</title>
+</head>
+<body>
+    <div class="gallery-container"> 
+        <div class="gallery-items"> 
+            <figure>
+                <img src="front-view-wild-tiger-nature_23-2150747946.jpg" alt="Wild tiger in nature" class="gallery-img">
+                <figcaption>Wild Tiger</figcaption>
+            </figure>
+        </div>
+        <div class="gallery-items">
+            <figure>
+                <img src="tiger-6775284.jpg" alt="Tiger" class="gallery-img">
+                <figcaption>Tiger</figcaption>
+            </figure>
+        </div>
+        <div class="gallery-items">
+            <figure>
+                <img src="peacock-8693634_1280.jpg" alt="Peacock" class="gallery-img">
+                <figcaption>Peacock</figcaption>
+            </figure>
+        </div>
+        <div class="gallery-items">
+            <figure>
+                <img src="Eurasian_wolf_2.jpg" alt="Eurasian Wolf" class="gallery-img">
+                <figcaption>Eurasian Wolf</figcaption>
+            </figure>
+        </div>
+        <div class="gallery-items">
+            <figure>
+                <img src="360_F_554521329_ngmDQSjSrUSRnbK2xK0bkcprsinG9Xdv.jpg" alt="Beautiful Nature" class="gallery-img">
+                <figcaption>Beautiful Nature</figcaption>
+            </figure>
+        </div>
+        <div class="gallery-items">
+            <figure>
+                <img src="Aptenodytes_forsteri_-Snow_Hill_Island,_Antarctica_-adults_and_juvenile-8.jpg" alt="Emperor Penguins" class="gallery-img">
+                <figcaption>Emperor Penguins in Antarctica</figcaption>
+            </figure>
+        </div>
+    </div>
+    <!-- Modal for displaying large image -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="largeImg">
+        <div id="caption"></div>
+        <button class="prev" id="prevBtn">Previous</button>
+        <button class="next" id="nextBtn">Next</button>
+    </div>
+    
+    <script src="first.js"></script>
+</body>
+</html>
